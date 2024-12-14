@@ -10,13 +10,13 @@
 
 rustPlatform.buildRustPackage {
   pname = "cosmic-ext-applet-clipboard-manager";
-  version = "0.1.0-unstable-2024-12-12";
+  version = "0.1.0-unstable-2024-12-14";
 
   src = fetchFromGitHub {
     owner = "cosmic-utils";
     repo = "clipboard-manager";
-    rev = "9242ae07d077992cb2d090873e9ef3fd4d2bd642";
-    hash = "sha256-0wdnh3DP85tEMSSrrQ6BO5YKeqjEwe6tlivRRIbkuc0=";
+    rev = "2e739554cbd60a703bbe23d0256b5c0548645ffb";
+    hash = "sha256-0ovlAllnMKXyR+DGCcg973tGjBTQldKPO0HWzz3/mLg=";
   };
 
   patches = [
@@ -37,6 +37,7 @@ rustPlatform.buildRustPackage {
       "cosmic-text-0.12.1" = "sha256-nCw3RNIHINXH4+m9wKB+0CeoXSVKKxP+ylaZhfp8u+o=";
       "dpi-0.1.1" = "sha256-whi05/2vc3s5eAJTZ9TzVfGQ/EnfPr0S4PZZmbiYio0=";
       "iced_glyphon-0.6.0" = "sha256-u1vnsOjP8npQ57NNSikotuHxpi4Mp/rV9038vAgCsfQ=";
+      "smithay-client-toolkit-0.19.2" = "sha256-LQccLvNtf9N1MqzYCFVseEH9bgeIouEA7+jovcBRwDQ=";
       "smithay-clipboard-0.8.0" = "sha256-4InFXm0ahrqFrtNLeqIuE3yeOpxKZJZx+Bc0yQDtv34=";
       "softbuffer-0.4.1" = "sha256-a0bUFz6O8CWRweNt/OxTvflnPYwO5nm6vsyc/WcXyNg=";
       "taffy-0.3.11" = "sha256-SCx9GEIJjWdoNVyq+RZAGn0N71qraKZxf9ZWhvyzLaI=";
